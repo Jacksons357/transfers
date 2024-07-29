@@ -1,6 +1,7 @@
 
 import { Header } from './components/header'
 import { Transfers } from './components/transfers'
+import { Toaster } from './components/ui/toaster'
 import './globals.css'
 
 export function App() {
@@ -9,6 +10,7 @@ export function App() {
       <Header />
       <div className="flex flex-1 flex-col gap-4 p-8 pt-6">
         <Transfers />
+        <Toaster />
       </div>
     </div>
   )
