@@ -99,7 +99,7 @@ export function Transfers() {
         </div>
       </div>
       <div className="flex flex-col gap-4">
-        <h1 className="text-3xl font-bold tracking-tight">Transferidadas</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Transferidas</h1>
 
         <div className="space-y-2.5">
           <div className="rounded-md border">
