@@ -52,7 +52,8 @@ export function NewTransfer({ onAddTransfer }: NewTransferProps) {
 
   function addNewTransfer() {
     toast({
-      title: "Transferência adicionada com sucesso!"
+      title: "Transferência adicionada com sucesso!",
+      duration: 3000
     })
 
     const currentDate = new Date().toISOString()
